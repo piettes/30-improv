@@ -1,0 +1,67 @@
+body {
+   /* background-image:url('bg.png'); */
+    background-repeat:no-repeat;
+    background-color:black;
+    margin:0;
+    padding:10px;
+    overflow:hidden;
+}
+#content{
+width:100%;
+height:100%;
+background-color:rgba(0,0,0,0.8);
+/*opacity: 0.9;*/
+position: absolute;
+z-index:-1000;
+}
+
+#clockdiv {
+ /*  font-family: 'Amatica SC',' Lobster', 'Baloo Bhai',cursive; */
+   font-family:arial;	color:white;
+	font-size:6em;
+	text-align:center;
+
+}
+#clockdiv div {
+        display: inline-block;
+}
+.button{
+        font-size:1.2em;
+}
+input {
+    width:20px;
+    border: 1px solid black;
+    color: grey;
+    background-color:black;
+}
+#control {
+display:block;
+position:absolute;
+left:0;
+top:0;
+color:grey;
+font-size: 0.5em;
+z-index:1000;
+}
+#control span:hover{
+color:white;
+cursor:pointer;
+}
+#control input,
+#control span
+{
+float:left;
+font-family: 'sans-serif';
+height: 11px;
+font-weight:bold;
+padding-right:10px;
+}
+#numero {
+  /*  font-family: 'Amatica SC',' Lobster', 'Baloo Bhai',cursive; */
+   font-family:arial;
+	color:white;
+	font-size:15em;
+	text-align:center;
+        margin-top:50px;
+        margin-bottom:50px;
+}
